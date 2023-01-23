@@ -1,7 +1,7 @@
 name: Java CI 01 for compile sources
 run-name: ${{ github.actor }} runs compile sources 🚀
 
-on: [manual]
+on: [pull_request]
 
 jobs:
   build:
